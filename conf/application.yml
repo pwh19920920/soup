@@ -1,0 +1,11 @@
+server:
+  serverName: 'soup'
+  engineMode: 'dev'
+  serverAddr: :8080
+  statics:
+    "/assets": "./conf/assets"
+  htmlGlobs:
+    - "./conf/pages/**/**"
+
+logger:
+  closeConsoleOut: true

@@ -1,0 +1,38 @@
+.footer {
+    position: absolute;
+    bottom: 10vh;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+}
+
+.sentence {
+    vertical-align: middle;
+    font-size: 2rem;
+}
+
+.main-wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sentence {
+    font-size: 2em;
+    text-align: center;
+    margin-top: -10vh;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    height: 50px;
+    margin: 15px 0;
+}
