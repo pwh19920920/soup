@@ -18,7 +18,7 @@ RUN echo $TIME_ZONE > /etc/timezone
 WORKDIR /dist
 COPY --from=builder /app/soup/soup .
 COPY --from=builder /app/soup/conf ./conf
-EXPOSE 8081
+EXPOSE 8080
 
 ARG PARAMS
 CMD /dist/soup $PARAMS
