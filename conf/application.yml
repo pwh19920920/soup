@@ -3,7 +3,8 @@ server:
   engineMode: 'dev'
   serverAddr: :8080
   statics:
-    "/assets": "./conf/assets"
+    - "/assets": "./conf/assets"
+    - "/932c0b2ff67ad5eb80875974678d0001.txt": "./conf/932c0b2ff67ad5eb80875974678d0001.txt"
   htmlGlobs:
     - "./conf/pages/**/**"
 
